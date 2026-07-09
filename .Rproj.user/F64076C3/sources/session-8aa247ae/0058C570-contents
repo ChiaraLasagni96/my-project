@@ -17,20 +17,59 @@ format:
       dark: superhero
 self-contained: true
 lang: it
+bibliography: biblio.bib
+reference-location: margin
+citaion-location: margin
 ---
 
 # Presentation 
 
-This is Chiara's website!
+This is Chiara's website [@ggplot]!
+
+And this is summer
+
+![Tuscany summer](img/mare.jpeg){#fig-tuscany}
+
+@fig-tuscany represents tuscany
+
+[Link to tuscany summer](https://www.visittuscany.com/)
 
 ## Sub presentation
 
-Sub section
+Sub section $X = V + E$
+
+$$z = \dfrac{z - \mu}{\sigma}$${#eq-myequation}
+
+In @eq-myequation, we wrote down an equation
+
 
 ### Sub sub section
 
-Another sub sub section 
+
+@eq-ctt shows the basic equation in classic test theory
+
+::: {.column-margin}
+
+$$X = V + E$${#eq-ctt}
+
+:::
 
 #### My paragraph
 
 This is a paragraph!
+
+::: {.grid}
+
+::: {.g-col-4}
+This is my first column 
+::: 
+
+::: {.g-col-4}
+This is my second column
+:::
+
+::: {.g-col-4}
+This is my third column
+:::
+
+:::
