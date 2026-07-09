@@ -51,6 +51,7 @@ In @eq-myequation, we wrote down an equation
 ::: {.column-margin}
 
 $$X = V + E$${#eq-ctt}
+
 :::
 
 #### My paragraph
@@ -69,6 +70,8 @@ This is my second column
 
 ::: {.g-col-4}
 This is my third column
+
+For further details look at the [code chunk](code chunks.html) file.
 :::
 
 :::
