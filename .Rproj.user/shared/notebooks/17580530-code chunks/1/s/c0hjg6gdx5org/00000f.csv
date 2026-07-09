@@ -1,0 +1,5 @@
+"0","#| label: fig-normal"
+"0","#| fig-cap: A normal distribution"
+"0","x = seq(-3,3, length.out = 10000)"
+"0","dx = dnorm(x)"
+"0","plot(x, dx, type = ""l"", cex = 2, lwd = 3)"

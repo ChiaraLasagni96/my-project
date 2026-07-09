@@ -6,6 +6,10 @@ format:
     toc: true
     toc-location: left
     number-sections: true
+    code-tools: 
+     source: true
+     toggle: false
+     caption: This is my code
     grid: 
       sidebar-width: 200px
       body-width: 900px
@@ -70,5 +74,24 @@ plot(x, dx, type = "l", cex = 2, lwd = 3)
 plot(x, dx, type = "l", cex = 2, lwd = 3)
 plot(x, pnorm(x), type = "l", cex = 2, lwd = 3)
 plot(pnorm(x), qnorm( pnorm(x)), type = "l", cex = 2, lwd = 3)
+```
+```{r}
+#| echo: true
+#| error: true
+mean(y)
+```
+
+@tbl-lab
+
+```{r}
+#| tbl-cap: This is my first table
+#| label: tbl-tab
+library(knitr)
+kable(head(cars))
+```
+
+```{r}
+#| column: margin
+kable(head(cars))
 ```
 

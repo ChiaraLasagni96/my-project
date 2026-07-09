@@ -1,0 +1,8 @@
+"0","#| layout-ncol: 3"
+"0","#| label: fig-normalProperties"
+"0","#| fig-cap: Normal distribution"
+"0","#| fig-subcap: "
+"0","#|  - ""Density"""
+"0","#|  - ""Cumulative"""
+"0","#|  - ""Quantile"""
+"0","plot(x, dx, type = ""l"", cex = 2, lwd = 3)"
