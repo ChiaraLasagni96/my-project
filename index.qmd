@@ -19,7 +19,7 @@ self-contained: true
 lang: it
 bibliography: biblio.bib
 reference-location: margin
-citaion-location: margin
+citation-location: margin
 ---
 
 # Presentation 
