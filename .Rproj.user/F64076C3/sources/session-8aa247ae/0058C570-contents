@@ -1,7 +1,15 @@
 ---
 title: "My first website"
 author: "Chiara"
-format: html
+affiliation: "DPSS"
+format: 
+  html:
+    theme: 
+      light: minty
+      dark: superhero
+self-contained: true
+    
+  
 ---
 
 # Presentation 
